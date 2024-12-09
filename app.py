@@ -116,7 +116,7 @@ new_db = FAISS.load_local("embeddings_output_portfolio", embeddings, allow_dange
 retriever = new_db.as_retriever(search_type="similarity", search_kwargs={"k": 3})
 
 # ...............Prompt Template................................
-template = """ Start answering the question like a Pro chatbot and the question based on the provided context. If you do not find relevant results, just say "This information is not available with me". 
+template = """ Start answering the question like a Pro chatbot and the question based on the provided context. If you do not find relevant results, just say "This information is not available with me. Also give precise answer not too much and it should be accurate" 
 
 Context: {context}
 Question : {question}
