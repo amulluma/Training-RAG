@@ -159,7 +159,7 @@ qa = RetrievalQA(
 )
 
 # Streamlit Chat Interface
-st.title("Amul Portfolio Chatbot")
+st.title("Amul's Portfolio Agent")
 
 if "history" not in st.session_state:
     st.session_state.history = []
