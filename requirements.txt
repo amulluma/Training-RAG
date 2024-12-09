@@ -1,1 +1,7 @@
-
+faiss-cpu
+streamlit
+gradio
+langchain_groq
+HuggingFaceBgeEmbeddings
+sentence-transformers
+langchain_community
