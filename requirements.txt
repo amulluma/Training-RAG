@@ -1,7 +1,7 @@
-faiss-cpu
 streamlit
-gradio
-langchain_groq
-HuggingFaceBgeEmbeddings
+langchain
+langchain-community
+langchain-groq
 sentence-transformers
-langchain_community
+python-dotenv
+faiss-cpu
